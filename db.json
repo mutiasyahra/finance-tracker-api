@@ -1,0 +1,273 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "name": "Ahmad Budiman",
+      "email": "ahmad.budiman@email.com",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ahmad",
+      "balance": 5750000,
+      "income": 8500000,
+      "expense": 2750000,
+      "currency": "IDR"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1",
+      "userId": "1",
+      "title": "Gaji Bulanan",
+      "amount": 8500000,
+      "type": "income",
+      "category": "Salary",
+      "date": "2024-11-01",
+      "note": "Gaji bulan November 2024",
+      "icon": "💼"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "title": "Bayar Kost",
+      "amount": 1500000,
+      "type": "expense",
+      "category": "Housing",
+      "date": "2024-11-02",
+      "note": "Kost bulan November",
+      "icon": "🏠"
+    },
+    {
+      "id": "3",
+      "userId": "1",
+      "title": "Belanja Bulanan",
+      "amount": 800000,
+      "type": "expense",
+      "category": "Food",
+      "date": "2024-11-03",
+      "note": "Groceries dan kebutuhan sehari-hari",
+      "icon": "🛒"
+    },
+    {
+      "id": "4",
+      "userId": "1",
+      "title": "Bensin Motor",
+      "amount": 50000,
+      "type": "expense",
+      "category": "Transportation",
+      "date": "2024-11-04",
+      "note": "Isi bensin Pertamax",
+      "icon": "⛽"
+    },
+    {
+      "id": "5",
+      "userId": "1",
+      "title": "Netflix Subscription",
+      "amount": 186000,
+      "type": "expense",
+      "category": "Entertainment",
+      "date": "2024-11-05",
+      "note": "Langganan Netflix Premium",
+      "icon": "🎬"
+    },
+    {
+      "id": "6",
+      "userId": "1",
+      "title": "Freelance Project",
+      "amount": 2500000,
+      "type": "income",
+      "category": "Freelance",
+      "date": "2024-11-06",
+      "note": "Design project untuk klien",
+      "icon": "💻"
+    },
+    {
+      "id": "7",
+      "userId": "1",
+      "title": "Makan di Resto",
+      "amount": 150000,
+      "type": "expense",
+      "category": "Food",
+      "date": "2024-11-07",
+      "note": "Dinner sama teman",
+      "icon": "🍽️"
+    },
+    {
+      "id": "8",
+      "userId": "1",
+      "title": "Bayar Internet",
+      "amount": 350000,
+      "type": "expense",
+      "category": "Bills",
+      "date": "2024-11-08",
+      "note": "IndiHome 100 Mbps",
+      "icon": "📡"
+    },
+    {
+      "id": "9",
+      "userId": "1",
+      "title": "Jual Barang Bekas",
+      "amount": 500000,
+      "type": "income",
+      "category": "Other",
+      "date": "2024-11-09",
+      "note": "Jual laptop lama",
+      "icon": "💵"
+    },
+    {
+      "id": "10",
+      "userId": "1",
+      "title": "Gym Membership",
+      "amount": 250000,
+      "type": "expense",
+      "category": "Health",
+      "date": "2024-11-10",
+      "note": "Membership bulanan",
+      "icon": "💪"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Salary",
+      "type": "income",
+      "icon": "💼",
+      "color": "#10B981"
+    },
+    {
+      "id": "2",
+      "name": "Freelance",
+      "type": "income",
+      "icon": "💻",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "3",
+      "name": "Investment",
+      "type": "income",
+      "icon": "📈",
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "4",
+      "name": "Other",
+      "type": "income",
+      "icon": "💵",
+      "color": "#6B7280"
+    },
+    {
+      "id": "5",
+      "name": "Food",
+      "type": "expense",
+      "icon": "🍽️",
+      "color": "#EF4444"
+    },
+    {
+      "id": "6",
+      "name": "Transportation",
+      "type": "expense",
+      "icon": "🚗",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "7",
+      "name": "Housing",
+      "type": "expense",
+      "icon": "🏠",
+      "color": "#EC4899"
+    },
+    {
+      "id": "8",
+      "name": "Entertainment",
+      "type": "expense",
+      "icon": "🎬",
+      "color": "#6366F1"
+    },
+    {
+      "id": "9",
+      "name": "Health",
+      "type": "expense",
+      "icon": "💊",
+      "color": "#14B8A6"
+    },
+    {
+      "id": "10",
+      "name": "Bills",
+      "type": "expense",
+      "icon": "📄",
+      "color": "#F97316"
+    },
+    {
+      "id": "11",
+      "name": "Shopping",
+      "type": "expense",
+      "icon": "🛍️",
+      "color": "#A855F7"
+    },
+    {
+      "id": "12",
+      "name": "Education",
+      "type": "expense",
+      "icon": "📚",
+      "color": "#0EA5E9"
+    }
+  ],
+  "budgets": [
+    {
+      "id": "1",
+      "userId": "1",
+      "category": "Food",
+      "amount": 2000000,
+      "spent": 950000,
+      "period": "monthly",
+      "month": "2024-11"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "category": "Transportation",
+      "amount": 500000,
+      "spent": 50000,
+      "period": "monthly",
+      "month": "2024-11"
+    },
+    {
+      "id": "3",
+      "userId": "1",
+      "category": "Entertainment",
+      "amount": 1000000,
+      "spent": 186000,
+      "period": "monthly",
+      "month": "2024-11"
+    }
+  ],
+  "savings": [
+    {
+      "id": "1",
+      "userId": "1",
+      "name": "Dana Darurat",
+      "target": 50000000,
+      "current": 15000000,
+      "deadline": "2025-12-31",
+      "icon": "🎯",
+      "color": "#10B981"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "name": "Liburan Bali",
+      "target": 10000000,
+      "current": 5500000,
+      "deadline": "2025-06-30",
+      "icon": "✈️",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "3",
+      "userId": "1",
+      "name": "Beli Laptop Baru",
+      "target": 15000000,
+      "current": 8000000,
+      "deadline": "2025-03-31",
+      "icon": "💻",
+      "color": "#8B5CF6"
+    }
+  ]
+}
